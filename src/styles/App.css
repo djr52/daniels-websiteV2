@@ -13,7 +13,7 @@
   min-height: 100%;
 }
 
-.fill-window {
+.wrapper{
   height: 100%;
   background-color: black;
   position: absolute;
