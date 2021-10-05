@@ -11,12 +11,14 @@ import Contact from '../views/Contact';
 
 import Particles from './ParticlesComponent';
 
+import {Container} from "../styles/ViewStyles";
+
 function App() {
   return (
     <div className="wrapper">
     	<BrowserRouter>
         	<Navbar/>
-          	<div className="container"> 
+          	<Container> 
           		<Particles/>
 				<Route path ="/" exact component={Home}/>
 				<Route path ="/about" component={About}/>
@@ -24,7 +26,7 @@ function App() {
 				<Route path ="/resume" component={Resume}/>
 				<Route path ="/contact" component={Contact}/>
 
-          	</div>
+          	</Container>
         </BrowserRouter>
 
     </div>

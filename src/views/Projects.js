@@ -1,8 +1,12 @@
 import React from "react";
+import ProjectCard from "../components/ProjectCard";
+
 
 const Projects = () =>{
     return(
-        <div>Projects</div>
+        <div>Projects
+            <ProjectCard/>
+        </div>
     )
 
 }
