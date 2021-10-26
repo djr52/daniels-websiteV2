@@ -1,8 +1,11 @@
 import React from "react";
+import ResumeComponent from "../components/ResumeComponent";
 
 const Resume = () =>{
     return(
-        <div className="container">Resume</div>
+        <div className="container">Resume
+            <ResumeComponent/>
+        </div>
     )
 
 }

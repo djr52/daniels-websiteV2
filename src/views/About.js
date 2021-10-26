@@ -10,7 +10,7 @@ const About = () => {
                         Hello! Here's some stuff about me.
                     </h1>
                     <p>
-                        As mentioned before, my name is Daniel Ramirez! I am a student currently attending New Jersey Institute of Technology, majoring in Information Systems.
+                        As mentioned before, my name is Daniel Ramirez! I am a student currently attending New Jersey Institute of Technology, majoring in Web & Information Systems.
                     </p>
                     <p>
                         The origin of my passion involves my love for computers and software, and my more recent interest of data. I love challenging myself and seeing the results of my perseverance.

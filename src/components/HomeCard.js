@@ -1,11 +1,21 @@
-import { IntroCard } from "../styles/ViewStyles";
+import { IntroCard, SocialMediaDiv } from "../styles/ViewStyles";
+import NASA from "./NASA";
 
 
 const HomeCard = () =>{
     return(
         <IntroCard>
-            <h5>Welcome to my Website</h5>
+            <div className="border border-dark rounded-top bg-secondary px-5">
+                <h1>Hello, I'm Daniel J Ramirez</h1> 
+                <h5>Welcome to my little Website!</h5>
+                <h5>Check out my other work and social media down below</h5>
+                <SocialMediaDiv>
+
+                </SocialMediaDiv>
+            </div>
+            <NASA/>
         </IntroCard>
+        
 
     );
 

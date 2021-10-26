@@ -14,7 +14,29 @@ export const ProjectCard = styled.div`
 `
 
 export const IntroCard = styled.div`
+
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 95vh;
+    
+`
+export const SocialMediaDiv = styled.div `
+    padding: 10px;
+    width: 70%;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    border-radius: 10px;
+
+
+`
+export const CenteredDiv = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 `
 
 export const AboutColOne = styled.div`

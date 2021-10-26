@@ -15,7 +15,8 @@ const ProjectCards = () =>{
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item text-dark">{project.skills}</li>
                     </ul>
-                    </ProjectCard></div>
+                </ProjectCard>
+            </div>
             })
             }
 
