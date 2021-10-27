@@ -1,5 +1,5 @@
 import {useState, useEffect} from 'react'
-import { CenteredDiv } from '../styles/ViewStyles';
+import { CenteredDiv, MediaHeader, MediaText, MediaContainer } from '../styles/ViewStyles';
 
 const NASA = () =>{
     const [apod, setApod] = useState([])
@@ -20,9 +20,14 @@ const NASA = () =>{
     return(
 
         <CenteredDiv className="text-white">
-            <h1>NASA's APOD</h1>
+            <div>
+                <MediaText>While you're here; Check out this cool astronomy photo/video! Brought to you by NASA's APOD API.</MediaText>
+                <MediaHeader>{apod.title}</MediaHeader>
+                <MediaContainer height="600" width="500"src={apod.url} title={apod.title} frameBorder="0"></MediaContainer>
 
-            <h1>Date: {apod.date}</h1>
+                <MediaText>{apod.date} | ©{apod.copyright}</MediaText>           
+            </div>
+
 
 
         </CenteredDiv>

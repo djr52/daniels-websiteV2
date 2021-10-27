@@ -5,9 +5,19 @@ export const AppContainer = styled.div`
     min-height: 100%;
 
 `
-export const PageContainer = styled.div`
+export const MediaContainer = styled.iframe`
 `
+export const MediaHeader = styled.h2`
+    text-align: initial;
+    padding-left: 11%;
 
+`
+export const MediaText = styled.p`
+    text-align: initial;
+    padding: 0% 11%;
+
+
+`
 export const ProjectCard = styled.div`
     color: white;
     margin-bottom: 25px;
@@ -20,6 +30,7 @@ export const IntroCard = styled.div`
     justify-content: center;
     align-items: center;
     text-align: center;
+    text-shadow: 1px 1px 4px #000000;
     min-height: 95vh;
     
 `

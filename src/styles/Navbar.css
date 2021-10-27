@@ -5,5 +5,13 @@
 }
 
 .page-tabs .nav-link.active {
-    color: gray;
-}
+    color: #A9A9A9;
+    border-bottom: 3px solid whitesmoke;
+    right: 0;
+    width: 0;
+    animation: highlight_anim ease 0.3s forwards}
+
+  @keyframes highlight_anim {
+    from{width: 0;}
+    to{width: 100%}
+  }

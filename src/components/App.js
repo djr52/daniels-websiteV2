@@ -15,7 +15,7 @@ import {AppContainer} from "../styles/ViewStyles";
 
 function App() {
   return (
-    <div className="wrapper">
+    <div className="wrapper font-family">
     	<BrowserRouter>
         	<Navbar/>
           	<AppContainer> 

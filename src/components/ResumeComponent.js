@@ -1,7 +1,9 @@
 import React, {useState} from 'react';
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import { CenteredDiv } from '../styles/ViewStyles';
+import "../styles/App.css"
 import ResumePDF from '../assets/Resume.pdf'
+
 
 const ResumeComponent = () =>{
     const [setNumPages] = useState(null);
@@ -19,9 +21,9 @@ const ResumeComponent = () =>{
                 <Page loading="Please wait!" error={pageError} pageNumber={pageNumber}/>
             </Document>
 
-            <div className="pl-3">
+            <div>
                 <div>
-                    <h3 className="position-absolute">Download my resume <a href={ResumePDF} download="Resume.pdf">here!</a></h3>
+                    <h3 className="resumeDownload">Download my resume <a href={ResumePDF} download="Resume.pdf">here!</a></h3>
                 </div>
             </div>
         </CenteredDiv>
