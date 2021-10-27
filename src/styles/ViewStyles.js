@@ -5,6 +5,12 @@ export const AppContainer = styled.div`
     min-height: 100%;
 
 `
+export const Icon = styled.img`
+    height: 50px;
+    width: 50px;
+  
+`
+
 export const MediaContainer = styled.iframe`
 `
 export const MediaHeader = styled.h2`
@@ -39,7 +45,6 @@ export const SocialMediaDiv = styled.div `
     width: 70%;
     background-color: rgba(0, 0, 0, 0.6);
     margin: 0 auto;
-    border-radius: 10px;
 
 
 `

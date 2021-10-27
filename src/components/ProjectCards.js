@@ -1,5 +1,8 @@
 import { projects } from "../data/ProjectData";
-import { ProjectCard } from "../styles/ViewStyles";
+import { Icon, ProjectCard } from "../styles/ViewStyles";
+
+import github from '../assets/github-logo-60.png';
+
 
 
 const ProjectCards = () =>{
@@ -9,7 +12,7 @@ const ProjectCards = () =>{
                 return <div className="col-sm-6">
                 <ProjectCard className="card bg-dark">
                     <div class="card-body">
-                        <h5 class="card-title">{project.projectTitle}</h5>
+                        <h5 class="card-title">{project.projectTitle} | <a href={project.links}><Icon src={github}/></a></h5>
                         <p class="card-text">{project.projectDesc}</p>
                     </div>
                     <ul class="list-group list-group-flush">

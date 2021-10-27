@@ -7,7 +7,7 @@ export const projects = [
         skills: "C# | .NET Framework | Entity Framework | SQL",
         status: "Final Stages",
         projectImg: "LoremIpsum.png",
-        links: "loremipsum"
+        links: "https://github.com/djr52/WebAPIProjectSetup"
     },
     {
         id: 1,
@@ -16,7 +16,7 @@ export const projects = [
         skills: "Python | Youtube API | Discord API",
         status: "WIP",
         projectImg: "LoremIpsum.png",
-        links: "loremipsum"
+        links: "https://github.com/djr52/MusicBotGooby"
     },
     {
         id: 2,
@@ -25,7 +25,7 @@ export const projects = [
         skills: "C# | Object-Oriented Design",
         status: "Completed",
         projectImg: "LoremIpsum.png",
-        links: "loremipsum"
+        links: "https://github.com/djr52/ConsoleCalculator"
     },
     {
         id: 3,
@@ -34,7 +34,7 @@ export const projects = [
         skills: "Java | Algorithms & Data Structures",
         status: "Completed",
         projectImg: "LoremIpsum.png",
-        links: "loremipsum"
+        links: "https://github.com/djr52/CS114-labs"
     },
     {
         id: 4,
@@ -43,7 +43,7 @@ export const projects = [
         skills: "JavaScript | React | React Redux",
         status: "Completed",
         projectImg: "LoremIpsum.png",
-        links: "loremipsum"
+        links: "https://github.com/djr52/IS322-final"
     }
 
 ];
