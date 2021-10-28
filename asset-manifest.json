@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/daniels-websiteV2/static/css/main.7d7d6649.chunk.css",
+    "main.js": "/daniels-websiteV2/static/js/main.760fd8c5.chunk.js",
+    "main.js.map": "/daniels-websiteV2/static/js/main.760fd8c5.chunk.js.map",
+    "runtime-main.js": "/daniels-websiteV2/static/js/runtime-main.bfa93fe2.js",
+    "runtime-main.js.map": "/daniels-websiteV2/static/js/runtime-main.bfa93fe2.js.map",
+    "static/css/2.af3aa899.chunk.css": "/daniels-websiteV2/static/css/2.af3aa899.chunk.css",
+    "static/js/2.ed658ff2.chunk.js": "/daniels-websiteV2/static/js/2.ed658ff2.chunk.js",
+    "static/js/2.ed658ff2.chunk.js.map": "/daniels-websiteV2/static/js/2.ed658ff2.chunk.js.map",
+    "6edf22c7883da78820dcc980006a58e6.js": "/daniels-websiteV2/6edf22c7883da78820dcc980006a58e6.js",
+    "6edf22c7883da78820dcc980006a58e6.js.LICENSE.txt": "/daniels-websiteV2/6edf22c7883da78820dcc980006a58e6.js.LICENSE.txt",
+    "index.html": "/daniels-websiteV2/index.html",
+    "static/css/2.af3aa899.chunk.css.map": "/daniels-websiteV2/static/css/2.af3aa899.chunk.css.map",
+    "static/css/main.7d7d6649.chunk.css.map": "/daniels-websiteV2/static/css/main.7d7d6649.chunk.css.map",
+    "static/js/2.ed658ff2.chunk.js.LICENSE.txt": "/daniels-websiteV2/static/js/2.ed658ff2.chunk.js.LICENSE.txt",
+    "static/media/Resume.ec22bcce.pdf": "/daniels-websiteV2/static/media/Resume.ec22bcce.pdf",
+    "static/media/index.css": "/daniels-websiteV2/static/media/roboto-latin-900italic.cb5ad999.woff2"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bfa93fe2.js",
+    "static/css/2.af3aa899.chunk.css",
+    "static/js/2.ed658ff2.chunk.js",
+    "static/css/main.7d7d6649.chunk.css",
+    "static/js/main.760fd8c5.chunk.js"
+  ]
+}
