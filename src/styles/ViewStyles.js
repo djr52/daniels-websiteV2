@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
-export const AppContainer = styled.div`
-    background-color: black;
-    min-height: 100%;
+export const ContentCard = styled.div` 
+    padding-top: 0.7%;
+    margin-bottom: 15%;
 
 `
 export const Icon = styled.img`
@@ -12,6 +12,10 @@ export const Icon = styled.img`
 `
 
 export const MediaContainer = styled.iframe`
+`
+export const SocialContact = styled.div`
+    margin-bottom: 7%;
+    text-align: center;
 `
 export const MediaHeader = styled.h2`
     text-align: initial;
@@ -30,7 +34,7 @@ export const ProjectCard = styled.div`
 `
 
 export const IntroCard = styled.div`
-
+    opacity: 0.85;
     color: white;
     display: flex;
     justify-content: center;

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 class Navbar extends React.Component {
-    state = { currentPage: '/' }
+    state = { currentPage: '' }
 
     isActiveTab(tabName) {
         return (tabName === this.state.currentPage) ? 'nav-link active' : 'nav-link';
