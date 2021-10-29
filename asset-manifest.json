@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/daniels-websiteV2/static/css/main.7d7d6649.chunk.css",
-    "main.js": "/daniels-websiteV2/static/js/main.5877908b.chunk.js",
-    "main.js.map": "/daniels-websiteV2/static/js/main.5877908b.chunk.js.map",
+    "main.js": "/daniels-websiteV2/static/js/main.e79b77ae.chunk.js",
+    "main.js.map": "/daniels-websiteV2/static/js/main.e79b77ae.chunk.js.map",
     "runtime-main.js": "/daniels-websiteV2/static/js/runtime-main.bfa93fe2.js",
     "runtime-main.js.map": "/daniels-websiteV2/static/js/runtime-main.bfa93fe2.js.map",
     "static/css/2.af3aa899.chunk.css": "/daniels-websiteV2/static/css/2.af3aa899.chunk.css",
@@ -22,6 +22,6 @@
     "static/css/2.af3aa899.chunk.css",
     "static/js/2.ed658ff2.chunk.js",
     "static/css/main.7d7d6649.chunk.css",
-    "static/js/main.5877908b.chunk.js"
+    "static/js/main.e79b77ae.chunk.js"
   ]
 }
